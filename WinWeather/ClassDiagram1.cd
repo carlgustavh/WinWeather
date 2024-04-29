@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WinWeather.Program">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinWeather.ApplicationController">
+    <Position X="4" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="day" />
+      <Field Name="incrementTracker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinWeather.Day">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAACAAAMBAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Day.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="incrementTracker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinWeather.IncrementTracker">
+    <Position X="7.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAEAAAAAAAA=</HashCode>
+      <FileName>IncrementTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinWeather.WeatherApiClient">
+    <Position X="9.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WeatherApiClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinWeather.ApiResponseHandler">
+    <Position X="12" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAGAAAAAAUAAABAAAAAJAAAAQBAAAACAA=</HashCode>
+      <FileName>ApiResponseHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="day" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinWeather.HomeForm">
+    <Position X="11" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABACAAIBEAIACAgAADAAAAgAKAAKBAQAAAAAA=</HashCode>
+      <FileName>HomeForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="applicationController" />
+      <Field Name="incrementTracker" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
